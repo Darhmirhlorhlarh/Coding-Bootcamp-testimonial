@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html body{
+    
+    max-height: 100vh;
+    font-family: 'Inter', sans-serif; 
+    color: hsl(240, 38%, 20%);  
+}
+
+/*.main {
+    display: flex;
+    flex-direction: column;
+}*/
+.patterns{
+    max-width: 100%;
+    
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pattern-quotes {
+    margin: 8.7rem 10.75rem;
+}
+
+.pattern-side {
+    margin: 2.7rem 7rem;
+}
+
+.container {
+    display: flex;
+    margin-left: 5.5rem;
+    bottom: 50px;
+    position: absolute;
+}
+
+.container p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-top: 6.25rem;
+}
+
+.container-1 {
+    height: 0;
+    overflow: hidden;
+}
+/*.show-links {
+    height: 10rem;
+  }*/
+.tee {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.ux {
+    font-size: 1.2rem;
+    color: hsl(240, 18%, 77%);
+}
+
+.pictures {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 15px 1px 0 rgba(56, 37, 37, 0.2);
+}
+.click {
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    top: 96%;
+    right: 70%;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    
+    
+}
+.right {
+    border: none;
+    float: right;
+}
+.left {
+    border: none;
+    float: left;
+}
+.pattern-bottom {
+    position: fixed;
+    margin: 0;
+    bottom: 0px;
+}
+
+.attribution { 
+    font-size: 1rem; 
+    text-align: right; 
+    justify-items: right;
+    color: aqua;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+ }
